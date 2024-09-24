@@ -1,0 +1,180 @@
+#MeuID{
+    background-color: darkred;
+    width: 300px;
+    height: 100px;
+    font-size:14px;
+}
+
+.MinhaClasse{
+    background-color: rgb(166, 255, 0);
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    font-size: 29px;
+}
+
+div{
+    background-color: #7300ff;
+    width: 300px;
+    height: 100px;
+    border: 10px solid;
+    font-size:9px
+}
+
+div>p{
+    color: #ffff;
+    font-weight: bold;
+}
+
+.MinhaClasse .div3{
+    color: crimson;
+    font-size: 32px;
+}
+
+#mt{
+    margin-top: 50px;
+}
+
+#mb{
+    margin-bottom: 25px;
+}
+
+#mr{
+   margin-right: 100px;
+}
+
+#ml{
+
+    margin-left: 100px;
+}
+
+#m-all{
+   margin: 100px 50px 100px 50px;
+}
+
+#pt{
+    padding-top: 50px;
+}
+
+#pb{
+    padding-bottom: 25px;
+}
+
+#pr{
+   padding-right: 100px;
+}
+
+#pl{
+
+    padding-left: 100px;
+}
+
+#p-all{
+   padding: 100px 50px 100px 50px;
+}
+
+/* Display */
+
+.block-element{
+    display: block;
+}
+.inline-element{
+    display: inline;
+}
+
+.inline-block-element{
+    display: inline-block;
+}
+
+.none-element{
+    display: none;
+}
+
+/* Position */
+
+.static-box{
+    position:static;
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+    top: 10px;
+    left: 150px;
+    
+}
+
+.fixed-box{ /* Se sobrepõe aos outros, ele fica fixo na posição que voce define para ele, ou seja, se movimenta junto com o scrool*/
+    position: fixed;
+    background-color: brown;
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+    top: 200px;
+    left: 100px;
+}
+
+.parent{
+    position: relative;
+}
+
+.absolute-box{
+    position: absolute;
+    width: 300px;
+    height: 100;
+    border: 1px solid;
+
+}
+
+.f-h-start{
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    width: 25vw;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.f-h-end{
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    width: 25vw;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.f-h-center{
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    width: 25vw;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.f-h-arround{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 25vw;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.f-h-between{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 25vw;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.span{
+    background-color: white;
+    font-size: 18px;
+    height: 30px;
+    width: 25vw;
+    width: 90px;
+    border-radius: 5px;
+}
